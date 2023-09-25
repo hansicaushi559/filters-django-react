@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.searchBar{
+  width: 30%;
+  height: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.paggination{
+  display: flex
+}
+
+.pb{
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+/* Pagination Styles */
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-button {
+  margin: 0 4px;
+}
+
+.page-button button {
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-button button:hover {
+  background-color: #0056b3;
+}
+
+.page-button button.active {
+  background-color: #0056b3;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
