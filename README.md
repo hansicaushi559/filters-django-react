@@ -1,6 +1,5 @@
 # filters-django-react
 
-
 In this project, I combined Django Rest Framework (DRF) and React to create a dynamic application. On the backend, I integrated various filters, such as search, ordering, and categorization, while also implementing pagination for a smooth user experience. Leveraging Axios, I efficiently transmitted query parameters to the backend, allowing users to interact with a well-structured list of employees through the frontend.
 
 
